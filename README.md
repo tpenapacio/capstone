@@ -6,13 +6,16 @@ Additionally, we augment the data to include other informative information
 
 # Organization 
 
-1. superset \n
+1. superset
+   
 This repo is from https://github.com/apache/superset. Handles launching dashboard and creating visuals 
 
-3. data \n
+3. data
+   
 This repo contains all data used for visualization.
   a. 2wt_numeric.csv and 2wt_location.csv were created using data augmentation scripts
   b. all other data is real data collected by Caryl
 
-5. code \n
+5. code
+   
 This contains all code used to reformat and augment data
