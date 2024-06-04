@@ -19,3 +19,17 @@ This repo contains all data used for visualization.
 5. code
    
 This contains all code used to reformat and augment data
+
+# Instructions
+
+To view dashboard, navigate to superset directory and run 
+
+'''
+docker compose -f docker-compose-image-tag.yml up
+'''
+
+Then go to this link 
+
+http://localhost:8088/superset/dashboard/11/
+
+and enter with username: admin and password: admin
